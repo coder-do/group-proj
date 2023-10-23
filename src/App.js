@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import ContactUs from './components/contact-us';
+import Features from './components/features';
+import Footer from './components/footer';
+import IntroVideo from './components/intro-video';
+import Partners from './components/partners';
+import Prototyping from './components/prototyping';
+import Testimonials from './components/testimonials';
+import Welcome from './components/welcome';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '10rem' }}>
+      <Welcome />
+      <Features />
+      <IntroVideo />
+      <Prototyping />
+      <Partners />
+      <Testimonials />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
