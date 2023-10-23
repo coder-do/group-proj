@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'space-between', flexDirection: 'column', gap: '10rem' }}>
+    <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '10rem' }}>
       <Welcome />
       <Features />
       <IntroVideo />
