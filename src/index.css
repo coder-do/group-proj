@@ -1,7 +1,27 @@
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikLight.otf');  font-weight: normal;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikRegular.otf');  font-weight: normal;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikThin.otf');  font-weight: 100;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikMedium.otf');  font-weight: 500;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikSemibold.otf');  font-weight: 600;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikBold.otf');  font-weight: 700;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikBlack.otf');  font-weight: 800;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikSuper.otf');  font-weight: 900;  font-style: normal;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikExtralight.otf');  font-weight: 100;  font-style: normal;}
+/* italics */
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikThinItalic.otf');  font-weight: 100;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikExtralightItalic.otf');  font-weight: 100;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikRegularItalic.otf');  font-weight: 400;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikLightItalic.otf');  font-weight: 400;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikMediumItalic.otf');  font-weight: 500;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikSemiboldItalic.otf');  font-weight: 600;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikBoldItalic.otf');  font-weight: 700;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikBlackItalic.otf');  font-weight: 800;  font-style: italic;}
+@font-face {  font-family: "Graphik";  src: url('./fonts/GraphikSuperItalic.otf');  font-weight: 900;  font-style: italic;}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Graphik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Graphik', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
